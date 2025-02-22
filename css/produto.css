@@ -1,0 +1,52 @@
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+text-decoration: underline ;
+color: white;
+}
+    
+a:link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar { 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; }
+
+    .index {
+        display: flex;
+        flex-wrap: wrap; /* Permite que as seções sejam distribuídas em várias linhas */
+        justify-content: space-between; /* Espaçamento uniforme entre as seções */
+        gap: 20px; /* Espaçamento entre as caixas */
+        padding: 40px; /* Espaço interno ao redor */
+    }
+    .index img {
+        height: 80px; /* Mantém a proporção da imagem */
+    }
+    .index section {
+        flex: 1 1 calc(20% - 20px); /* Ocupa 20% da largura menos o gap */
+        text-align: center; /* Centraliza o conteúdo */
+        border: 2px solid #ccc; /* Borda ao redor da seção */
+        border-radius: 10px; /* Cantos arredondados */
+        padding: 10px; /* Espaçamento interno */
+        background-color: white; /* Cor de fundo */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0px;
+        width: 100%
+    }
+
+    
+    
